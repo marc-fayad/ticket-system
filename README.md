@@ -1,18 +1,42 @@
 # ticket-system
 A streamlined shared ticketing system for an IT team.
 
+## User Stories
+
+### US-01 - Submitting a ticket
+User Story: As a requester, I want to submit a ticket that has a category and description so I can send my request to the team that handles it.
+
+Acceptance Criterion: When I submit a ticket with a title, category, and subscription, it appears in "My Tickets" with the 'Open' status. 
+
+### US-02 - Checking ticket status
+User Story: As a requester, I want to see the current status of my submitted tickets so I can tell whether my requests are open, in progress, or closed.
+
+Acceptance Criterion: After a team member changes my ticket from 'Open' to 'In Progress', I see the updated status next time I look at the ticket.
+
+### US-03 - Filtering tickets
+User Story: As a team member, I want to filter tickets by category, status, and assignee, so I can find the work I need to handle or what somebody else is assigned.
+
+Acceptance Criterion: When I select a category like 'IAM' and a status like 'Open', the queue displays only open IAM tickets I can see.
+
+
 ## UI Mockups
 
 ### Ticket Creation
 Filling out a form to submit a ticket.
 ![New Ticket form](docs/images/TicketCreation.png)
 
+### Supports US-01
+
 
 ### My Ticket Queue
 Checking the status of tickets the user submitted or is assigned.
 ![My Tickets list](docs/images/MyTickets.png)
 
+### Supports US-02
+
 
 ### Followed Queues
 Filter tickets by category, status, or assignee.
 ![Staff Queue](docs/images/TicketQueues.png)
+
+### Supports US-03
