@@ -24,19 +24,16 @@ Acceptance Criterion: When I select a category like 'IAM' and a status like 'Ope
 ### Ticket Creation
 Filling out a form to submit a ticket.
 ![New Ticket form](docs/images/TicketCreation.png)
-
-### Supports US-01
+Supports US-01
 
 
 ### My Ticket Queue
 Checking the status of tickets the user submitted or is assigned.
 ![My Tickets list](docs/images/MyTickets.png)
-
-### Supports US-02
+Supports US-02
 
 
 ### Followed Queues
 Filter tickets by category, status, or assignee.
 ![Staff Queue](docs/images/TicketQueues.png)
-
-### Supports US-03
+Supports US-03
