@@ -18,6 +18,9 @@ User Story: As a team member, I want to filter tickets by category, status, and 
 
 Acceptance Criterion: When I select a category like 'IAM' and a status like 'Open', the queue displays only open IAM tickets I can see.
 
+## Misuse Stories
+
+### MS-01 - 
 
 ## UI Mockups
 
