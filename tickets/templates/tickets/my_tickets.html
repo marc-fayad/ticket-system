@@ -1,0 +1,10 @@
+<h1>My Tickets</h1>
+<p>Signed in as {{ request.user.get_username }}.</p>
+
+<ul>
+    {% for ticket in tickets %}
+        <li>{{ ticket.title }} — {{ ticket.get_status_display }}</li>
+    {% empty %}
+        <li>You haven’t submitted any tickets yet.</li>
+    {% endfor %}
+</ul>
