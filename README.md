@@ -1,4 +1,4 @@
-# ticket-system
+# TicketQueue
 A streamlined shared ticketing system for an IT team.
 
 ## User Stories
