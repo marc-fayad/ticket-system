@@ -63,3 +63,7 @@ Supports US-03
 
 ### Component Diagram
 ![System Context Diagram](docs/images/TicketQueue-C4-Diagram-Component.drawio.png)
+
+## License
+
+TicketQueue is licensed under the [MIT License](LICENSE).
