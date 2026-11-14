@@ -40,3 +40,14 @@ Supports US-02
 Filter tickets by category, status, or assignee.
 ![Staff Queue](docs/images/TicketQueues.png)
 Supports US-03
+
+## C4 Diagrams
+
+### System Context Diagram
+![System Context Diagram](docs/images/TicketQueue-C4-Diagram-System-Context.drawio.png)
+
+### Container Diagram
+![System Context Diagram](docs/images/TicketQueue-C4-Diagram-Container.drawio.png)
+
+### Component Diagram
+![System Context Diagram](docs/images/TicketQueue-C4-Diagram-Component.drawio.png)
