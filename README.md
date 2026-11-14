@@ -20,7 +20,15 @@ Acceptance Criterion: When I select a category like 'IAM' and a status like 'Ope
 
 ## Misuse Stories
 
-### MS-01 - 
+### MS-01 - Edit someone else's ticket
+Misuse Story: As a requester, I want to modify the ticket someone else opened that I have not been given permission to.
+
+Mitigation Criterion: When I modify a field in someone else's assigned ticket,  the server denies the change and shows a denial message.
+
+### MS-02 - Submit a ticket in someone else's name
+Misuse Story: As a requester, I want to submit a ticket under another employee's name so I can make it appear that they requested work or access.
+
+Mitigation Criterion: When a user submits a ticket while singed in, the Ticket Queue records the user as the requester.
 
 ## UI Mockups
 
