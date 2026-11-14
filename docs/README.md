@@ -5,7 +5,7 @@
 ### US-01 - Submitting a ticket
 User Story: As a requester, I want to submit a ticket that has a category and description so I can send my request to the team that handles it.
 
-Acceptance Criterion: When I submit a ticket with a title, category, and subscription, it appears in "My Tickets" with the 'Open' status. 
+Acceptance Criterion: When I submit a ticket with a title, category, and description, it appears in "My Tickets" with the 'Open' status. 
 
 ### US-02 - Checking ticket status
 User Story: As a requester, I want to see the current status of my submitted tickets so I can tell whether my requests are open, in progress, or closed.
@@ -27,7 +27,7 @@ Mitigation Criterion: When I modify a field in someone else's assigned ticket,  
 ### MS-02 - Submit a ticket in someone else's name
 Misuse Story: As a requester, I want to submit a ticket under another employee's name so I can make it appear that they requested work or access.
 
-Mitigation Criterion: When a user submits a ticket while singed in, the Ticket Queue records the user as the requester.
+Mitigation Criterion: When a user submits a ticket while signed in, the Ticket Queue records the user as the requester.
 
 ## UI Mockups
 
