@@ -13,6 +13,7 @@ Clone the repository and open the cloned folder in your terminal.
 
 ```powershell
 git clone https://github.com/marc-fayad/ticket-system.git
+cd ticket-system
 ```
 
 From the folder containing `manage.py`, create a virtual environment, install the dependencies, and initialize the SQLite database.
@@ -25,7 +26,7 @@ py -3.11 -m venv .venv
 
 ## Usage
 
-Create a local account the first time you set up WorkQueue. Follow the prompts to choose a username and password.
+Create a local account the first time you set up TicketQueue. Follow the prompts to choose a username and password.
 
 ```powershell
 .\.venv\Scripts\python.exe manage.py createsuperuser
