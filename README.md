@@ -45,6 +45,8 @@ Press **Ctrl+C** in the terminal to stop the server.
 
 TicketQueue is licensed under the [MIT License](LICENSE).
 
+# Design
+
 ## User Stories
 
 ### US-01 - Submitting a ticket
