@@ -1,5 +1,5 @@
 # TicketQueue
-###A streamlined shared ticketing system for an IT team.
+### A streamlined shared ticketing system for an IT team.
 
 TicketQueue gives small IT teams one place to track helpdesk requests, identity & access management procedures, and internal project tasks. Requesters can see the status of their tickets, and staff can share queues to see what needs attention, reassign tasks, and note progress for the sake of review.
 
